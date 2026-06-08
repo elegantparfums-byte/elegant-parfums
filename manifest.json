@@ -1,0 +1,50 @@
+{
+  "name": "Elegant Parfums — Business Suite",
+  "short_name": "Elegant Parfums",
+  "description": "Business management suite for Elegant Parfums — scents, pricing, sales, inventory & more.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0e0c08",
+  "theme_color": "#0e0c08",
+  "lang": "en",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Scents",
+      "short_name": "Scents",
+      "description": "Go to scent management",
+      "url": "./index.html#scents",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Record Sale",
+      "short_name": "Sales",
+      "description": "Log a new sale",
+      "url": "./index.html#sales",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Orders",
+      "short_name": "Orders",
+      "description": "View and manage orders",
+      "url": "./index.html#orders",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
